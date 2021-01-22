@@ -25,10 +25,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('covid_19.urls')),
     url(r'^media/(?P<path>.*)$', serve,{'document_root': settings.MEDIA_ROOT}),
-    url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT})
+    url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT}),
 ]
 
+STATIC_URL = '/static/'
 
-# STATIC_URL = '/static/'
-#
-# STATIC_ROOT= os.path.join(BASE_DIR,'staticfiles')
+STATIC_ROOT= os.path.join(BASE_DIR,'staticfiles')
