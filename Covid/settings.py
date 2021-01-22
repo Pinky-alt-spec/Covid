@@ -25,7 +25,7 @@ SECRET_KEY = '5=h_1@r=n8yp5=^conks^8#w-ew3*$pz4-k0d&fi#5$p%xgar3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'covivi.herokuapp.com']
 
 
 # Application definition
