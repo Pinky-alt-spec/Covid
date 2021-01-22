@@ -29,3 +29,7 @@ urlpatterns = [
 ]
 
 urlpatterns = urlpatterns+static(settings.MEDIA_URL,document_root-settings_MEDIA_ROOT)
+
+# STATIC_URL = '/static/'
+#
+# STATIC_ROOT= os.path.join(BASE_DIR,'staticfiles')
